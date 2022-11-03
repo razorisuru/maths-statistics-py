@@ -12,7 +12,7 @@ for i in range(0, n):
   
     nos.append(ele) # adding the element
       
-print("Statics are - ", nos)
+print("Numbers are - ", nos)
 
 mean = numpy.mean(nos)
 median = numpy.median(nos)
@@ -20,12 +20,17 @@ variance = numpy.var(nos)
 sd = numpy.std(nos)
 cv = ((sd/mean)*100)
 
+#converting ints to floats (2f)
+
+cvr = f'{cv:.2f}'
+sdr = f'{sd:.2f}'
+
 
 print("Mean - ", mean)
 print("Median - ", median)
 print("Variance - ", variance)
-print("Standard Deviation - ", sd)
-print("Coefficient - ", cv)
+print("Standard Deviation - ", sdr)
+print("Coefficient - ", cvr,'%')
 
 input('Press Enter To Exit')
 
