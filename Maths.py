@@ -22,13 +22,14 @@ cv = ((sd/mean)*100)
 
 #converting ints to floats (2f)
 
+variancer = f'{variance:.2f}'
 cvr = f'{cv:.2f}'
 sdr = f'{sd:.2f}'
 
 
 print("Mean - ", mean)
 print("Median - ", median)
-print("Variance - ", variance)
+print("Variance - ", variancer)
 print("Standard Deviation - ", sdr)
 print("Coefficient - ", cvr,'%')
 
