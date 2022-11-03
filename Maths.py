@@ -22,16 +22,16 @@ cv = ((sd/mean)*100)
 
 #converting ints to floats (2f)
 
-variancer = f'{variance:.2f}'
-cvr = f'{cv:.2f}'
-sdr = f'{sd:.2f}'
+variancef = f'{variance:.2f}'
+cvf = f'{cv:.2f}'
+sdf = f'{sd:.2f}'
 
 
-print("Mean - ", mean)
-print("Median - ", median)
-print("Variance - ", variancer)
-print("Standard Deviation - ", sdr)
-print("Coefficient - ", cvr,'%')
+print("Mean               - ", mean)
+print("Median             - ", median)
+print("Variance           - ", variancef)
+print("Standard Deviation - ", sdf)
+print("Coefficient        - ", cvf,'%')
 
 input('Press Enter To Exit')
 
